@@ -18,6 +18,10 @@ python -c "import qdrant_client; print('✅ Qdrant Client Ready')"
 python -c "import sentence_transformers; print('✅ AI Models Ready')"
 
 echo.
+echo 4. Populating Database...
+python restore_data.py
+
+echo.
 echo ===================================================
 echo 🎉 Setup Complete! 
 echo.
