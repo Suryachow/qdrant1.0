@@ -8,15 +8,23 @@ PREREQUISITES:
 ---------------------------------------------------
 STEP 1: SETUP (DO THIS ONCE)
 ---------------------------------------------------
-Double-click on "setup_for_friend.bat".
-- It will install all necessary libraries.
-- It will download and start the Qdrant database.
+WINDOWS:
+Double-click "setup_for_friend.bat".
+
+MAC / LINUX:
+Open Terminal, navigate to the folder, and run:
+   sh setup_for_friend.sh
 
 ---------------------------------------------------
 STEP 2: HOW TO USE
 ---------------------------------------------------
-To find or add a college, just double-click "get_college.bat" 
-(or run it from command line like: .\get_college "IIT Bombay")
+WINDOWS:
+Double-click "get_college.bat" 
+(or run: .\get_college "College Name")
+
+MAC / LINUX:
+Run:
+   sh get_college.sh "College Name"
 
 ---------------------------------------------------
 FILES EXPLAINED:
