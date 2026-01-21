@@ -1,0 +1,3 @@
+@echo off
+start http://localhost:6333/dashboard
+echo Opening Qdrant Dashboard...
